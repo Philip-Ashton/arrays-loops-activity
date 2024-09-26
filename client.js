@@ -32,11 +32,18 @@ console.log(hobbies);
  * ---------
  * 1. Create an array of colors as strings
  *    (include the color 'teal' at least once)
+ 
  * 2. Create a variable tealCount
  * 3. Write a loop that counts the number of times teal 
  *    is in the array
  * 4. Output the array and number of times teal was found
  */
+
+let colors = ['blue', 'azure', 'aqua', 'navy',];
+console.log(colors);
+
+colors.push ('teal');
+console.log(colors);
 
 
 // Example output
