@@ -42,7 +42,7 @@ console.log(hobbies);
 let colors = ['blue', 'azure', 'aqua', 'navy',];
 console.log(colors);
 
-colors.push ('teal');
+colors.push ('teal', 'teal');
 console.log(colors);
 let tealCount = 0;
 for (let i=0; i<colors.length; i++) {
