@@ -44,13 +44,14 @@ console.log(colors);
 
 colors.push ('teal');
 console.log(colors);
-
+let tealCount = 0;
 for (let i=0; i<colors.length; i++) {
      if (colors[i] === 'teal') {
-          console.log( 'Teal was found', [i], 'times.');
+     tealCount++;     
      }
      console.log(colors[i]);
 }
+console.log( 'Teal was found', (tealCount), 'times');
 
 // Example output
 // green, red, teal, orange, teal
