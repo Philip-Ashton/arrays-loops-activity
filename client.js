@@ -67,6 +67,11 @@ console.log( 'Teal was found', (tealCount), 'times');
  *    array and even numbers in the evenNumbers array.
  * 4. Output the original array, odd number array and even number array
  */
+let numbers = [1, 12, 23, 34, 45, 56,];
+let oddNumbers = [];
+let evenNumbers = [];
+console.log (numbers);
+
 
 
 // Example output
